@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    background-color: aqua;
+}
+h1{
+    overflow-x: hidden;
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+    margin-left: 29vw;
+    text-align: center;
+    font-size: 6vw;
+    
+}
+span{
+    display: inline-block;
+    margin-left: 39vw;
+    margin-top: 4vw;
+    font-size: 3vw;
+    animation: jump 2s infinite;
+    font-family: 'Bitter', serif;
+}
+@keyframes jump{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2vw);
+    }
+}
+.big{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 5vw;
+    
+}
+.box1{
+    
+    font-size: 2.7vw;
+    color: black;
+    background-color: crimson;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 5vw;
+    text-align: center;
+    box-shadow: 0vw 0.5vw 1vw grey;
+}
+.box2{
+    font-size: 2.7vw;
+    color: wheat;
+    background-color: crimson;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 5vw;
+    text-align: center;
+    box-shadow: 0vw 0.5vw 1vw grey;
+}
+.box3{
+    font-size: 2.7vw;
+    color: black;
+    background-color: crimson;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 5vw;
+    text-align: center;
+    box-shadow: 0vw 0.5vw 1vw grey;
+}
+.box1a{
+    
+    color: black;
+    font-size: 2vw;
+    background-color: plum;
+    width: 20vw;
+    height: 16vw;
+    position: relative;
+    margin-top: 1vw;
+    border-radius: 5vw;
+}
+.box2a{
+    list-style: none;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+    width: 20vw;
+    height: 16vw;
+    position: relative;
+    margin-top: 1vw;
+    border-radius: 5vw;
+}
+.box3a{
+    color: black;
+    font-size: 2vw;
+    background-color: plum;
+    width: 20vw;
+    height: 16vw;
+    position: relative;
+    margin-top: 1vw;
+    border-radius: 5vw;
+}
+p{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    margin-left: 35vw;
+    font-size: 3vw;
+    border-right: 0.2vw solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: text 5s infinite;
+}
+@keyframes text{
+    0%,100%{
+        width: 0ch;
+    }
+    50%{
+        width: 18ch;
+    }
+}
+footer{
+    font-size: 1.5vw;
+    text-align: left;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 16vw;
+    background-color: black;
+    
+}
+.img1{
+    width: 14vw;
+    height: auto;
+}
+.img2{
+    width: 2vw;
+    height: auto;
+}
+.img3{
+    width: 2vw;
+    height: auto;
+}
